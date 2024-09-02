@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="outer">
+      <h1>Age calculator</h1>
+      <input type="text" class="text" id="out" />
+      <h4>Enter your date of birth</h4>
+      <div class="date">
+        <input type="number" placeholder="day" id="day" />
+        <input type="number" placeholder="month" id="month" />
+        <input type="number" placeholder="year" id="year"/>
+      </div>
+      <div class="btn">
+        <button onclick="age()">Calculate</button>
+        <button onclick="clr()">Clear</button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
